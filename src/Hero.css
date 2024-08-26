@@ -1,0 +1,7 @@
+.hero-image {
+  width: 350px; /* Adjust size as needed */
+  height: 350px; /* Same as width to make it square */
+  border-radius: 20px; /* Adjust for more or less rounding */
+  overflow: hidden; /* Ensure the image fits within the rounded corners */
+}
+

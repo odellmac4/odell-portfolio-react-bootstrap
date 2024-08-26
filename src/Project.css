@@ -1,0 +1,5 @@
+.fixed-size {
+  width: 150px;  /* or any desired fixed width */
+  height: 150px; /* or any desired fixed height */
+  object-fit: cover; /* Ensures the image covers the dimensions without distortion */
+}

@@ -1,0 +1,15 @@
+.icon {
+  vertical-align: middle;
+  line-height: 133px;
+}
+
+.navbar-brand > .icon {
+  font-size: 40px;
+}
+
+.nav-link.active {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border-radius: 0.25rem; /* Rounded corners */
+
+}

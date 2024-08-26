@@ -1,0 +1,25 @@
+.circle-button {
+  border-radius: 50%; /* Makes the button circular */
+  width: 60px;         /* Set width to your desired size */
+  height: 60px;        /* Set height to match the width for a perfect circle */
+  padding: 0;         /* Remove default padding */
+  display: flex;      /* Flexbox to center content */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  font-size: 1.5rem; /* Adjust font size if needed */
+  border-color: #2b1700;
+}
+
+.circle-button:hover {
+  color: #2b1700 !important;
+
+}
+
+.circle-button span {
+  color: #27071b;
+}
+
+.circle-button:hover span {
+  color: whitesmoke; /* Color of the text when hovering over the button */
+}
+
