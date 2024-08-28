@@ -5,7 +5,6 @@ interface ResultsProps {
   word: string;
   jumbledWord: string;
   jumbleString: (word: string) => void; // Updated to accept a string argument
-  selectedLetter: string;
   guesses: string[];
   hasWon: boolean;
 }
@@ -14,7 +13,6 @@ function Results({
   word, 
   jumbledWord, 
   jumbleString, 
-  selectedLetter, 
   guesses,
   hasWon
 }: ResultsProps) {

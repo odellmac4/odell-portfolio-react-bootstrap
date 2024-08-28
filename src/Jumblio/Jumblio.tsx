@@ -24,7 +24,7 @@ function Jumblio() {
     setHasWon(false);
   };
 
-  const handleRecordGuess = (guess: string = selectedLetter): void => {
+  const handleRecordGuess = (guess: string): void => {
     if (guess === word[0]) {
       // Update the word by removing the first letter
       const updatedWord = word.slice(1);
@@ -49,10 +49,8 @@ function Jumblio() {
 
   const handleKeyboardClick = (letter: string) => {
     if (jumbledWord) {
-      setSelectedLetter(letter);
       handleRecordGuess(letter);
     } else {
-      setSelectedLetter('');
       handleRecordGuess('');
       setJumbledWord('')
     }
@@ -67,7 +65,6 @@ function Jumblio() {
           word={word}
           jumbledWord={jumbledWord}
           jumbleString={jumbleString}
-          selectedLetter={selectedLetter}
           guesses={guesses}
           hasWon={hasWon}
         />

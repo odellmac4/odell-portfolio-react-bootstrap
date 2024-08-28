@@ -26,13 +26,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Container>
+        <div className='container-fluid'>
           <Navbar/>
           <Hero/>
           <About/>
           <Projects/>
           <Jumblio/>
-        </Container>
+        </div>
         {/* <Container>
         <Form>
           <Row>
